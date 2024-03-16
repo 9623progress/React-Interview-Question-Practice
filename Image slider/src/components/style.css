@@ -1,0 +1,72 @@
+.Images {
+    display: flex;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 100px;
+}
+
+.app {
+    margin: 10px;
+}
+
+.Arrow {
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.Arrowleft {
+
+    top: 50%;
+}
+
+.ArrowRight {
+    right: 2%;
+    top: 50%;
+}
+
+.circle {
+    padding: 5px;
+    border-radius: 50%;
+
+    margin: 2px;
+
+
+}
+
+.circle-active {
+    background-color: rgb(14, 0, 0);
+}
+
+.circle-inactive {
+    background-color: rgb(92, 92, 90);
+}
+
+.circle-container {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.img-active {
+    display: block;
+}
+
+.img-inactive {
+    display: hidden;
+}
