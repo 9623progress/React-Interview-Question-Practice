@@ -2,6 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: black;
+    color: rgb(245, 179, 97);
 }
 
 .Images {
@@ -11,7 +12,7 @@ body {
 img {
     width: 400px;
     height: 300px;
-    margin: 100px;
+
 }
 
 .app {
@@ -21,9 +22,11 @@ img {
 .Arrow {
     position: absolute;
     font-size: 2rem;
-    color: rgb(249, 241, 241);
+    color: black;
     z-index: 1;
     cursor: pointer;
+
+
 }
 
 .Arrowleft {
@@ -67,6 +70,7 @@ img {
 .container {
     display: inline-block;
     position: relative;
+    margin: auto;
 
 }
 
@@ -82,4 +86,9 @@ h1 {
     text-align: center;
     color: rgb(245, 205, 130);
     font-size: 2rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }

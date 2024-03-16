@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { FontAwesomeIcon } from "react-icons";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const Image = ({ url }) => {
   const [loading, setLoading] = useState(false);
@@ -61,7 +60,7 @@ const Image = ({ url }) => {
 
   return (
     <div className="container">
-      <FaArrowLeft
+      <FaArrowAltCircleLeft
         className="Arrowleft Arrow"
         onClick={() => {
           left();
@@ -84,7 +83,8 @@ const Image = ({ url }) => {
           <p>No data</p>
         )}
       </div>
-      <FaArrowRight
+
+      <FaArrowAltCircleRight
         className="ArrowRight Arrow"
         onClick={() => {
           right();
