@@ -1,3 +1,9 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
 .Images {
     display: flex;
 }
@@ -15,7 +21,7 @@ img {
 .Arrow {
     position: absolute;
     font-size: 2rem;
-    color: black;
+    color: rgb(249, 241, 241);
     z-index: 1;
     cursor: pointer;
 }
@@ -40,7 +46,7 @@ img {
 }
 
 .circle-active {
-    background-color: rgb(14, 0, 0);
+    background-color: rgb(247, 244, 244);
 }
 
 .circle-inactive {
@@ -61,6 +67,7 @@ img {
 .container {
     display: inline-block;
     position: relative;
+
 }
 
 .img-active {
@@ -69,4 +76,10 @@ img {
 
 .img-inactive {
     display: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(245, 205, 130);
+    font-size: 2rem;
 }
